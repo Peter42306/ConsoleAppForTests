@@ -1,10 +1,12 @@
-﻿namespace ConsoleAppForTests
+﻿using ConsoleAppForTests.Examples;
+
+namespace ConsoleAppForTests
 {
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
+        public static void Main(string[] args)
+        {            
+            Example_5_GetMd5Hash.Run();
         }
     }
 }
