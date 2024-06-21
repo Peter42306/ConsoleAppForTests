@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppForTests.Examples
 {
-    public class Example_1__DerivedInterfaces
+    public class Example_1_DerivedInterfaces
     {
         public static void Run()
         {
             IBase baseObject = new Implementation();
-            baseObject.BaseMethod();
+            baseObject.BaseMethod();            
             Console.WriteLine();
 
             IDerived derived=new Implementation();
