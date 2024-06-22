@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,6 +12,8 @@ namespace ConsoleAppForTests.Examples
     {
         public static void Run()
         {
+            Console.WriteLine($"Executing: {MethodBase.GetCurrentMethod().DeclaringType.Name}");
+
             string shortInput = "Hello";
             string longInput = new string('a', 1000000000); // 1 миллиард символов 'a'
 
