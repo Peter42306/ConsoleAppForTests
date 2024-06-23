@@ -7,8 +7,8 @@ namespace ConsoleAppForTests
     {
         ////////////////////////////////////////////////////////////////////////////
         public static void Main(string[] args)
-        {            
-            FactoryMethod.Run();            
+        {
+            FactoryMethod3.Run();
         }   
         
     }
