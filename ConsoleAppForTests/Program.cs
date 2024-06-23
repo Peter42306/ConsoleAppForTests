@@ -8,7 +8,7 @@ namespace ConsoleAppForTests
         ////////////////////////////////////////////////////////////////////////////
         public static void Main(string[] args)
         {
-            AbstructFactory3.Run();
+            Builder1.Run();
         }   
         
     }
