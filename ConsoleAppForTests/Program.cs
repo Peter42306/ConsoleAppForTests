@@ -8,7 +8,7 @@ namespace ConsoleAppForTests
         ////////////////////////////////////////////////////////////////////////////
         public static void Main(string[] args)
         {
-            Singleton1.Run();
+            DependencyInjection1.Run();
         }   
         
     }
