@@ -107,6 +107,7 @@ namespace ConsoleAppForTests.Examples
             }
         }
 
+        // Клиент
         public class Car
         {
             private readonly IEngine _engine;
