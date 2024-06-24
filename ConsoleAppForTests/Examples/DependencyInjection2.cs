@@ -60,5 +60,9 @@ namespace ConsoleAppForTests.Examples
             Car car = new Car(engine, battery);
             car.Start();
         }
+
+        // Electric engine started.
+        // Car battery charging.
+        // Car started.
     }
 }

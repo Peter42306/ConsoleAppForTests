@@ -8,7 +8,7 @@ namespace ConsoleAppForTests
         ////////////////////////////////////////////////////////////////////////////
         public static void Main(string[] args)
         {
-            DependencyInjection1.Run();
+            DependencyInjection2.Run();
         }   
         
     }
